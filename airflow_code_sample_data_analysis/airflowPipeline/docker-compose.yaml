@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+  scheduler:
+    image: puckel/docker-airflow:1.10.4
+    build:
+      context: https://github.com/puckel/docker-airflow.git#1.10.4
+      dockerfile: Dockerfile
+      args:
+        AIRFLOW_DEPS: gcp_api,s3,slack
+        PYTHON_DEPS: sqlalchemy==1.2.0
+#    environment:
+#      - FERNET_KEY=jsDPRErfv8Z_eVTnGfF8ywd19j4pyqE3NpdUBA_oRTo=
+  webserver:
+    image: puckel/docker-airflow:1.10.4
+    build:
+      context: https://github.com/puckel/docker-airflow.git#1.10.4
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=Local
+      - PYTHONPATH=/usr/local/airflow
+
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ./operators:/usr/local/airflow/operators
+      - ../integration/:/usr/local/airflow/survey_analysis/integration
+      - ./requirements.txt:/usr/local/airflow/requirements.txt
+    ports:
+      - "8080:8080"
+
+    command:  webserver
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3

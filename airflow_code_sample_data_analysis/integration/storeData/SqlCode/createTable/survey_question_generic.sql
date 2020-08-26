@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS athavan.table_name;
+CREATE TABLE athavan.table_name(
+     "respondent_id" CHARACTER VARYING(1024) ENCODE RAW NULL,
+    "response" CHARACTER VARYING(1024) ENCODE RAW NULL,
+    "question" CHARACTER VARYING(1024) ENCODE RAW NULL
+)
+DISTSTYLE EVEN
+

@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1a17fc5-4f9e-4a2b-9644-9f261f48e103" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/airflow_code_sample_data_migration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/airflow_code_sample_data_migration/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/matchingFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1770">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rob</find>
+      <find>women soccer football</find>
+      <find>boston red sox</find>
+      <find>ufc236 live</find>
+      <find>4833508759</find>
+      <find>dodgers</find>
+      <find>cardinals</find>
+      <find>red sox</find>
+      <find>cell phones</find>
+      <find>1116077152464789505</find>
+      <find>1115301927661854722</find>
+      <find>beer</find>
+      <find>2995211756</find>
+      <find>tweet_dic</find>
+      <find>append</find>
+      <find>les</find>
+      <find>2557521</find>
+      <find>readFileInChunk</find>
+      <find>nodeFile</find>
+      <find>consecutive</find>
+      <find>index_of_word_in_sentence_list</find>
+      <find>38531995</find>
+      <find>les miserables</find>
+      <find>problematic cell phone</find>
+      <find>MatchingPhrase</find>
+      <find>1116187882048368641</find>
+      <find>${</find>
+      <find>2461786866</find>
+      <find>1116190735336968192</find>
+      <find>graphik</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/D3SampleViz" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/D3Test/day-week/index.js" />
+        <option value="$PROJECT_DIR$/D3Test/groupedBarChart/indexfile.html" />
+        <option value="$PROJECT_DIR$/D3Test/bubble-chart/bubblechart.html" />
+        <option value="$PROJECT_DIR$/D3Test/bubble-chart/index.js" />
+        <option value="$PROJECT_DIR$/D3Test/bubbleChartCapsule/bubbleChartData/VisitConejoValleybubbleMatrixData.txt" />
+        <option value="$PROJECT_DIR$/D3Test/bubbleChartCapsule/bubbleChartData/bubbleMatrixData.txt" />
+        <option value="$PROJECT_DIR$/D3Test/bubbleChartWordCount/bubblemapviz_drybar.csv" />
+        <option value="$PROJECT_DIR$/D3Test/bubbleChartWordCount/index.js" />
+        <option value="$PROJECT_DIR$/D3Test/dayWeekHeatMatrix/aveda_json.json" />
+        <option value="$PROJECT_DIR$/D3Test/dayWeekHeatMatrix/index.js" />
+        <option value="$PROJECT_DIR$/D3Test/groupedBarChart/rawData/VisitConejoValleyd3JsonDualGraph.txt" />
+        <option value="$PROJECT_DIR$/D3Test/groupedBarChart/groupedBar.js" />
+        <option value="$PROJECT_DIR$/D3Test/horizontalBarGraph/indextest.html" />
+        <option value="$PROJECT_DIR$/D3Test/horizontalBarGraph/categoryIndexData/VisitConejoValleycategoryIndex.txt" />
+        <option value="$PROJECT_DIR$/D3Test/horizontalBarGraph/index.js" />
+        <option value="$PROJECT_DIR$/D3Test/bubbleChartCapsule/indexBubble.js" />
+        <option value="$PROJECT_DIR$/D3SampleViz/9fe3b0c780a12685f7438ac6ba54a11e/.block" />
+        <option value="$PROJECT_DIR$/D3SampleViz/bubbleChartCapsule/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/59fa10d8f2050856e07e6a2e59a5e097/.block" />
+        <option value="$PROJECT_DIR$/D3SampleViz/978b9835772454ce02389b8636c7b3ab/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/bubbleChart/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/bubbleChartWordCount/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/dayWeekHeatMatrix/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/interactiveBubbleChart/index.html" />
+        <option value="$PROJECT_DIR$/D3SampleViz/horizontalBarGraph/index.js" />
+        <option value="$PROJECT_DIR$/D3SampleViz/groupedBarChart/groupedBar.js" />
+        <option value="$PROJECT_DIR$/D3SampleViz/bubbleChart/indexBubble.js" />
+        <option value="$PROJECT_DIR$/maven/redshift-connection.yaml" />
+        <option value="$PROJECT_DIR$/maven/glue_yaml/crawler.yaml" />
+        <option value="$PROJECT_DIR$/maven/glue_yaml/event-crawler.yaml" />
+        <option value="$PROJECT_DIR$/maven/glue_yaml/crawler.YAML" />
+        <option value="$PROJECT_DIR$/test/msk.py" />
+        <option value="$PROJECT_DIR$/graphika/nodes1.txt" />
+        <option value="$PROJECT_DIR$/graphika/test.txt" />
+        <option value="$PROJECT_DIR$/graphika/test.py" />
+        <option value="$PROJECT_DIR$/graphika/Util.py" />
+        <option value="$PROJECT_DIR$/graphika/__init__.py" />
+        <option value="$PROJECT_DIR$/graphika/runTermNodeMatch.py" />
+        <option value="$PROJECT_DIR$/graphika/runDaily.py" />
+        <option value="$PROJECT_DIR$/graphika/tests/test_termNodeMatch.py" />
+        <option value="$PROJECT_DIR$/graphika/matchingFunctions.py" />
+        <option value="$PROJECT_DIR$/graphika/requirements.txt" />
+        <option value="$PROJECT_DIR$/graphika/Dockerfile" />
+        <option value="$PROJECT_DIR$/graphika/README.md" />
+        <option value="$PROJECT_DIR$/graphika/TermNodeMatch.py" />
+        <option value="$PROJECT_DIR$/arcadia/README.md" />
+        <option value="$PROJECT_DIR$/glue_code_sample/event_table.yaml" />
+        <option value="$PROJECT_DIR$/glue_code_sample/redshift-connection.yaml" />
+        <option value="$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/dailyWorkFlow/surveyData.py" />
+        <option value="$PROJECT_DIR$/social_network_data_structure_code_sample/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="963" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Personal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Personal" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow_code_sample_data_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Personal" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow_code_sample_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Personal" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow_code_sample_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="formatData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Personal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Personal" type="462c0819:PsiDirectoryNode" />
+              <item name="airflow_code_sample_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="storeData" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598473642266" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/graphika" />
+      <recent name="$PROJECT_DIR$/arcadia/sql" />
+      <recent name="$PROJECT_DIR$/arcadia/operators" />
+      <recent name="$PROJECT_DIR$/arcadia" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/graphika/data" />
+      <recent name="$PROJECT_DIR$/D3SampleViz/bubbleChart" />
+      <recent name="$PROJECT_DIR$/D3SampleViz/groupedBarChart" />
+      <recent name="$PROJECT_DIR$/D3SampleViz/horizontalBarGraph" />
+      <recent name="$PROJECT_DIR$/D3Test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.matchingFunctions (1)">
+    <configuration type="PythonConfigurationType" factoryName="Python">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.hive_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matchingFunctions (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.hive_env_/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/social_network_data_structure_code_sample" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/social_network_data_structure_code_sample/matchingFunctions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matchingFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graphika" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphika/matchingFunctions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runDaily" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graphika" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphika/runDaily.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.hive_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graphika" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphika/TermNodeMatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_termNodeMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graphika/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphika/tests/test_termNodeMatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.runDaily" />
+      <item itemvalue="Python.test_termNodeMatch" />
+      <item itemvalue="Python.matchingFunctions" />
+      <item itemvalue="Python.matchingFunctions (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.matchingFunctions (1)" />
+        <item itemvalue="Python.matchingFunctions" />
+        <item itemvalue="Python.test_termNodeMatch" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.runDaily" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/tests" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../HiveProjects/ScalaProjects" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1a17fc5-4f9e-4a2b-9644-9f261f48e103" name="Default Changelist" comment="" />
+      <created>1576273619602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576273619602</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33180252" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295063" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24908425" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Project Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32839224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32839224" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/interview2.txt" />
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/freeResponse.rtf" />
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/insertData.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/tests/test_termNodeMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#2095#2198#0" />
+            <element signature="e#4469#5218#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/operators/createDatabaseConn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/glue_yaml/event-crawler.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/events.csv" />
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/events-2017.csv" />
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/event_table.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/comprehend.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1433">
+          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/redshift-connection.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/workflow.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/glue_yaml/crawler.YAML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glue_code_sample/users.csv" />
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/fictional_survey.csv" />
+    <entry file="file://$PROJECT_DIR$/test/msk.py" />
+    <entry file="file://$PROJECT_DIR$/check_data.ipynb" />
+    <entry file="file://$PROJECT_DIR$/test/exam.ipynb" />
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/dags/runProductionToStaging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/data/nodes1.txt" />
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/airflowPipeline/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/dailyWorkFlow/surveyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1625">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/getData/surveyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/storeData/SqlCode/importData/survey_question_generic.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/storeData/saveDataFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/airflowPipeline/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/airflowPipeline/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/sql/create_analytics_staging_tables.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/sql/create_dev_staging_tables.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/sql/staging_analytics_insert.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/sql/staging_dev_insert.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/dockerCreateMultiplePostgresDatabase/1-postgresql_multiple_databases.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/dockerCreateMultiplePostgresDatabase/2-arcadia-mock-production-exercise.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/dockerCreateMultiplePostgresDatabase/3-load_prod_init.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_migration/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-904">
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/runDaily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/TermNodeMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="106" column="82" lean-forward="true" selection-start-line="106" selection-start-column="82" selection-end-line="106" selection-end-column="82" />
+          <folding>
+            <element signature="e#81#118#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/airflowPipeline/dags/runDailyIngestion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="630">
+            <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/storeData/SqlCode/createTable/survey_question_generic.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/integration/formatData/surveyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airflow_code_sample_data_analysis/airflowPipeline/operators/runSurveyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_network_data_structure_code_sample/matchingFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Python</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6 (.hive_env) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6 (.hive_env_)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Personal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
