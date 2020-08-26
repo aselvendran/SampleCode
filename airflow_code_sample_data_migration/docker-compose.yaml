@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:9.6
+    volumes:
+      - ./dockerCreateMultiplePostgresDatabase:/docker-entrypoint-initdb.d/
+    ports:
+      - "32818:5432"
+    restart: unless-stopped
+    environment:
+      - POSTGRES_MULTIPLE_DATABASES=production_db,airflow:analytics_staging_db,airflow:dev_staging_db,airflow
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+
+
+  scheduler:
+    image: puckel/docker-airflow:1.10.4
+    build:
+      context: https://github.com/puckel/docker-airflow.git#1.10.4
+      dockerfile: Dockerfile
+      args:
+        AIRFLOW_DEPS: gcp_api,s3,slack
+        PYTHON_DEPS: sqlalchemy==1.2.0
+  webserver:
+    image: puckel/docker-airflow:1.10.4
+    build:
+      context: https://github.com/puckel/docker-airflow.git#1.10.4
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=Local
+      - PYTHONPATH=/usr/local/airflow
+      - DB_Port=32818
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ./operators:/usr/local/airflow/operators
+      - ./sql:/usr/local/airflow/sql
+      - ./requirements.txt:/usr/local/airflow/requirements.txt
+    ports:
+      - "8080:8080"
+    command:  webserver
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
