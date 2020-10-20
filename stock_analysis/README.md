@@ -1,4 +1,4 @@
-#### Bombora Take Home Assignment
+#### Stock Monthly High/Low
 
 
 #### Motivation of Analysis
@@ -13,7 +13,7 @@ Using console, the final output can either be a printed response or can be store
 > Below is a snapshot of the directory. 
 
  
-    ├── bombora                             # Folder containing all scripts
+    ├── stock_analysis                             # Folder containing all scripts
         ├── tests/                          # Folder containing tests    
             ├── test_api_output.py          # unit tests
         ├── Dockerfile                      # Dockerfile to run
@@ -26,7 +26,7 @@ Using console, the final output can either be a printed response or can be store
 
 > Below is the code necessary to run the analysis in python3.6 locally. 
 ```bash
-cd bombora
+cd stock_analysis
 pip install -r requirements.txt
 
 stock_ticker="replace to desired symbol"
@@ -41,7 +41,7 @@ python runMain.py > stock_output_${stock_ticker}.txt
 
 > Below is the code necessary to run the analysis in Docker. 
 ```bash
-cd bombora
+cd stock_analysis
 docker build .
 #find the image_id from code below
 docker container ls -la
