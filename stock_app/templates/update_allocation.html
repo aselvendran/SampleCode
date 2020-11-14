@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Update Portfolio Amount</h1>
+
+    <div class="form">
+        <form action="/update_allocation/{{task.id}}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <input type="text" name="content" id="allocation" value="{{task.date_created}}">
+            <input type="submit" value="Update Amount">
+        </form>
+    </div>
+    
+
+</div>
+{% endblock %}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+    <script>
+
+window.onload = function(){
+      // bar chart data
+      var barData = {
+        labels : [
+          {% for item in labels %}
+           "{{ item }}",
+          {% endfor %}
+	],
+
+        datasets : [{
+          backgroundColor: "black",
+          strokeColor: "rgba(151,187,205,1)",
+          borderColor: "#c45850",
+          type:'bar',
+          yAxisID: 'right-axis',
+          label: "Dividends --- [Total Dividends: {{dividends_received}}]",
+          data : [
+            {% for item in values_bar %}
+               "{{ item }}",
+              {% endfor %}
+	    ]
+          },
+
+          {
+          strokeColor: "rgba(151,187,205,1)",
+          borderColor: "#8e5ea2",
+          type:'line',
+          label: "Portfolio Value --- [Latest Portfolio Value {{portfolio_value}}]",
+          yAxisID: 'left-axis',
+          data : [
+            {% for item in values_line %}
+               "{{ item }}",
+              {% endfor %}
+	    ]
+          }
+
+
+        ],
+        yAxes: [{
+         name: "1",
+         scalePositionLeft: false,
+         scaleFontColor: "rgba(151,137,200,0.8)"
+     }, {
+         name: "2",
+         scalePositionLeft: true,
+         scaleFontColor: "rgba(151,187,205,0.8)"
+     }]
+
+      }
+
+     var mychart = document.getElementById("chart").getContext("2d");
+       steps = 10
+       max = {{max}}
+
+    // Bar Chart from barChartData
+    <!--var ctx = document.getElementById("chart").getContext("2d");-->
+
+
+      new Chart(mychart, {
+        type: 'bar',
+        responsive : false,
+        populateSparseData: true,
+         overlayBars: false,
+         datasetFill: true,
+        data: barData,
+       scaleSteps: steps,
+       scaleStepWidth: Math.ceil(max / steps),
+       scaleStartValue: 0,
+       scaleShowVerticalLines: true,
+       scaleShowGridLines : true,
+       barShowStroke : true,
+       scaleShowLabels: true,
+       options: {
+      scales: {
+      maintainAspectRatio:true,
+        yAxes: [{
+          type:'linear',
+          id:'left-axis',
+          display: true,
+          position: 'left',
+          ticks: {
+          min: 0
+        }
+        },{
+          type:'linear',
+          id:'right-axis',
+          display: true,
+          position: 'right',
+          stacked:false,
+          ticks: {
+          max: max/2
+        }
+        }]
+      }
+
+      }
+      });
+
+
+}
+
+    </script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+    <center>
+        <div class="chart-container" style="position: relative; height:20vh; width:60vw">
+            <canvas id="chart"></canvas>
+        </div>
+
+    </center>
+</body>
+</html>
+

@@ -1,0 +1,165 @@
+apiVersion: v1
+items:
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        io.kompose.service: db
+      name: db
+    spec:
+      ports:
+        - name: "5432"
+          port: 5432
+          targetPort: 5432
+      selector:
+        io.kompose.service: db
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        io.kompose.service: my-app
+      name: my-app
+    spec:
+      type: NodePort
+      selector:
+        io.kompose.service: my-app
+      ports:
+        - protocol: TCP
+          port: 5000
+          targetPort: 5000
+          nodePort: 30000
+
+    status:
+      loadBalancer: {}
+
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        io.kompose.service: pgadmin
+      name: pgadmin
+    spec:
+      type: NodePort
+      ports:
+        - protocol: TCP
+          port: 80
+          nodePort: 32767
+      selector:
+        io.kompose.service: pgadmin
+    status:
+      loadBalancer: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        io.kompose.service: db
+      name: db
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: db
+      strategy: {}
+      template:
+        metadata:
+          labels:
+            io.kompose.network/default: "true"
+            io.kompose.service: db
+        spec:
+          containers:
+            - env:
+                - name: POSTGRES_DB
+                  value: db
+                - name: POSTGRES_PASSWORD
+                  value: admin
+                - name: POSTGRES_USER
+                  value: admin
+              image: postgres:latest
+              name: db
+              ports:
+                - containerPort: 5432
+              resources: {}
+          restartPolicy: Always
+  - apiVersion: networking.k8s.io/v1
+    kind: NetworkPolicy
+    metadata:
+      creationTimestamp: null
+      name: default
+    spec:
+      ingress:
+        - from:
+            - podSelector:
+                matchLabels:
+                  io.kompose.network/default: "true"
+      podSelector:
+        matchLabels:
+          io.kompose.network/default: "true"
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        io.kompose.service: my-app
+      name: my-app
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: my-app
+      strategy: {}
+      template:
+        metadata:
+          labels:
+            io.kompose.service: my-app
+        spec:
+          imagePullSecrets:
+            - name: athavan-key
+          containers:
+            - env:
+                - name: POSTGRES_HOST
+                  value: db
+                - name: SQLALCHEMY_DATABASE_URI
+                  value: postgresql+psycopg2://admin:admin@db:5432/db
+                - name: STAGE
+                  value: test
+              image: image_from_aws_ecr
+              imagePullPolicy: Always
+              name: my-app
+              ports:
+                - containerPort: 5000
+              resources: {}
+          restartPolicy: Always
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        io.kompose.service: pgadmin
+      name: pgadmin
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: pgadmin
+      strategy: {}
+      template:
+        metadata:
+          labels:
+            io.kompose.service: pgadmin
+        spec:
+          containers:
+            - env:
+                - name: PGADMIN_DEFAULT_EMAIL
+                  value: admin@admin.com
+                - name: PGADMIN_DEFAULT_PASSWORD
+                  value: admin
+              image: dpage/pgadmin4
+              name: pgadmin-container
+              ports:
+                - containerPort: 5000
+              resources: {}
+          restartPolicy: Always
+    status: {}
+kind: List
+metadata: {}
+

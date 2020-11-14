@@ -15,7 +15,12 @@ All the code is written in python.
     ├── glue_code_sample                                            # Using Glue to move data from s3 to redshift
     ├── social_network_data_structure_code_sample                   # Data Structures in mapping social media data networks
     ├── stock_analysis                                              # Data Structures in retrieving stock high/low
+    ├── stock_app                                                   # Flask app using stock data -- containerized with Kubernetes
 
+> Production App
+>>  `stock_app` 
+
+&nbsp;
 > Production Level Code
 >>  `social_network_data_structure_code_sample` \
 >>  `airflow_code_sample_data_analysis` \

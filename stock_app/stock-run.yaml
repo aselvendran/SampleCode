@@ -1,0 +1,36 @@
+version: "3"
+services:
+   my-app:
+    image: image_name_from_aws_ecr
+    ports:
+       - 80:5000
+    environment:
+      - STAGE=test
+      - SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://admin:admin@db:5432/db
+      - POSTGRES_HOST=db
+    depends_on:
+      - db
+    restart: always
+   db:
+     environment:
+       POSTGRES_USER: admin
+       POSTGRES_PASSWORD: admin
+       POSTGRES_DB: db
+     image: postgres:latest
+     networks:
+       - default
+     ports:
+       - 5405:5432
+     restart: always
+#
+   pgadmin:
+     container_name: pgadmin_container
+     image: dpage/pgadmin4
+     environment:
+       - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+       - PGADMIN_DEFAULT_PASSWORD=admin
+     ports:
+       - 5051:80
+     depends_on:
+       - db
+     restart: unless-stopped

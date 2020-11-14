@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Dividend Analysis</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Stock Dividend Analysis</h1>
+    {% if tasks|length < 1 %}
+    <h4 style="text-align: center">Select Dividend Portfolio!</h4>
+    {% else %}
+    <table>
+        <tr>
+            <th>Stock-Portfolio</th>
+            <th>Stocks and Allocation</th>
+            <th>Portfolio Amount</th>
+            <th>Edit</th>
+        </tr>
+        {% for task in tasks %}
+            <tr>
+                <td>{{ task.content }}</td>
+                <td>{{ task.stock_list }}</td>
+                <td>{{ task.portfolio_amount }}</td>
+                <td>
+                    <a href="/delete/{{task.id}}">Delete</a>
+                    <br><br>
+                    <a href="/update/{{task.id}}">Update Stock or Allocation</a>
+                    <br><br>
+                    <a href="/update_allocation/{{task.id}}">Update Portfolio Amount </a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    {% if tasks|length < 1 %}
+
+    <form class="form-inline" method="POST" action="{{ url_for('index') }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon">Please select</span>
+                <select name="comp_select" class="selectpicker form-control">
+                    {% for o in data %}
+                    <option value="{{ o.name }}">{{ o.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-default">Go</button>
+        </div>
+    </form>
+    {% endif %}
+
+</div>
+{% endblock %}
+
+

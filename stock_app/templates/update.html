@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Update Stock Allocation</h1>
+
+    <div class="form">
+        <form action="/update/{{task.id}}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <input type="text" name="content" id="stock_list" value="{{task.stock_list}}">
+            <input type="submit" value="Update">
+        </form>
+    </div>
+
+
+</div>
+{% endblock %}
