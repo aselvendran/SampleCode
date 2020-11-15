@@ -1,4 +1,0 @@
-airflow
-pandas
-numpy
-psycopg2
