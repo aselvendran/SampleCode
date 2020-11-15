@@ -2,5 +2,5 @@
 .DS_Store
 .DS_Store?
 D3SampleViz/
-covid_pipeline/
+covid_analysis/updated_data.json
 kubectl_tutorial/
